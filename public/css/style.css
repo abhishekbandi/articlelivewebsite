@@ -1,0 +1,338 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 12px;
+  font-family: montserrat;
+}
+
+/* navigation bar */
+nav {
+  background-color: #ffffff;
+  font-family: 'poppines', sans-serif;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* company logo */
+label.logo {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* nav-links is an un ordered list  */
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+/* list of .nav-links */
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+/* decoration for a tag in .nav-links */
+nav ul li a {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+/* .write_story class for ui */
+li a.write_story {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #2EE59D;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+/* adds the hover effect when user moves cursor on the button */
+.write_story:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/* sticky nav bar on scroll of the page the navigation bar stick ao top */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  display: flex;
+}
+
+/* adding space between nav bar and the page  */
+.sticky+.content {
+  padding-top: 100px;
+}
+
+.Indexcontent {
+  padding: 25px;
+  height: 100%;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.ads_space {
+  width: 25%;
+}
+
+.uiDesign {
+  width: 15%;
+  height: 15%;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #e4e2e2, #f0f0f0);
+  box-shadow: 20px 20px 50px #bebebe,
+    -20px -20px 50px #ffffff;
+}
+
+.title h1 {
+  padding-top: 10px;
+  /* padding-left: 10px; */
+  color: rgba(0, 0, 0, .84);
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+}
+
+.intro p {
+  padding-top: 30px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  color: #504f4f;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.article_topic h2 {
+  padding-top: 80px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  color: rgba(22, 22, 22, 0.84);
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+.about_article p {
+  padding-top: 30px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  color: #504f4f;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.lets_get_stated p {
+  padding-top: 30px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  color: rgba(0, 0, 0, 0.84);
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.items_in_flex {
+  display: flex;
+  padding-top: 20px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.1);
+}
+
+.circle h4 {
+  font-size: 14px;
+  text-align: center;
+}
+
+.step_one p {
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #504f4f;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.highlight {
+  color: #0082e6;
+}
+
+.box_1 {
+  padding-top: 15px;
+}
+
+.box_1 p {
+  background-color: #effac0;
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 50px;
+  color: #504f4f;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.note {
+  padding-top: 30px;
+  padding-left: 20px;
+  color: #504f4f;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pubget {
+  padding-top: 10px;
+}
+
+.pubget p {
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  color: #504f4f;
+  background-color: #e4e2e2;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.implementation p {
+  border-radius: 10px;
+  padding: 20px;
+  /* padding-left: 50px; */
+  color: #504f4f;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.setting_up_design{
+  border-radius: 10px;
+  padding: 20px;
+  /* padding-left: 50px; */
+  color: #504f4f;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main_code{
+  border-radius: 10px;
+  background-color: #effac0;
+}
+
+/* change the screen size of the page at 1204px */
+@media screen and (max-width:1024px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+/* change the screen size of the page at 800px- */
+@media screen and (max-width:850px) {
+
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover,
+  a.active {
+    background: none;
+    color: #0082e6;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+
+  .ads_space {
+    display: none;
+  }
+
+  .Indexcontent {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+
+}
