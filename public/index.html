@@ -11,50 +11,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" type="image/x-icon" href="images/android_logo.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <!-- <link rel="javaScript" href="script/script.js"> -->
-    <title>Document</title>
+    <title>compan</title>
 </head>
 
 <body>
+    <!-- Resonsive NavBar -->
     <nav id="navbar">
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
-        <label class="logo">compan</label>
+        <label class="logo"><a href="index.html">compan</a></label>
         <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="storys.html">Story's</a></li>
-            <li class="wrap"><a class="write_story" href="writeStory.html">Write my story</a></li>
+            <!-- <li class="wrap"><a class="write_story" href="writeStory.html">Write my story</a></li> -->
         </ul>
     </nav>
-
+    <!-- First Section of the page containing text and image-->
     <Section class="content">
         <div class="home_title_1">
             <div>
-                <p>Start your story know</p>
+                <p>Start your article know</p>
                 <div class="button_cloumn">
                     <button class="button_class1">
-                        <p class="button_text">Read story</p>
+                        <p class="button_text">Read article</p>
                     </button>
-                    <!-- <li class="Button"><a class="write_story" href="writeStory.html">Read story</a></li> -->
                     <div style="width: 30px;"></div>
-                    <!-- <li class="wrap"><a class="write_story" href="writeStory.html">Write a story</a></li> -->
                     <button class="button_class2">
-                        <p class="button_text" style="color: black;">Write a story</p>
+                        <p class="button_text" style="color: black;">Write a article</p>
                     </button>
                 </div>
-
             </div>
-
         </div>
         <div class="image">
-            <img class="image_1" src="book.gif" />
+            <img class="image_1" src="images/book.gif" />
         </div>
-
-
     </Section>
+    <!-- Second Section Containing Featured rticles-->
     <section class="second">
         <div class="title_2">
             <p>Featured articles</p>
@@ -62,37 +61,35 @@
         <div class="white_space">
             <div class="row">
                 <div class="column">
-
+                    <a href="article_1_url_launcher.html">
+                        <div class="card">
+                            <img src="images/flutter_url_launcher.png" /><br><br>
+                            <h3>Url_launcher in Flutter?</h3><br><br>
+                            <p>url launcher is a flutter package used to open a spacifi link on click of the button to
+                                perform specified actions...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
                     <div class="card">
                         <img
-                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/a.png?alt=media&token=9cd81bab-2a77-4f81-b173-65acb375349e"><br><br>
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/b.jpg?alt=media&token=9e0a6681-67bf-4f2f-bcd8-e136355c0bf0" /><br><br>
                         <h3>Lorem ipsum dolor</h3><br><br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
                     </div>
                 </div>
                 <div class="column">
-
                     <div class="card">
                         <img
-                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/b.jpg?alt=media&token=9e0a6681-67bf-4f2f-bcd8-e136355c0bf0"><br><br>
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/c.jpg?alt=media&token=286edbf8-da52-4519-aeb2-d564a8fd4b36" /><br><br>
                         <h3>Lorem ipsum dolor</h3><br><br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
                     </div>
                 </div>
                 <div class="column">
-
                     <div class="card">
                         <img
-                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/c.jpg?alt=media&token=286edbf8-da52-4519-aeb2-d564a8fd4b36"><br><br>
-                        <h3>Lorem ipsum dolor</h3><br><br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
-                    </div>
-                </div>
-                <div class="column">
-
-                    <div class="card">
-                        <img
-                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/c.jpg?alt=media&token=286edbf8-da52-4519-aeb2-d564a8fd4b36"><br><br>
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/c.jpg?alt=media&token=286edbf8-da52-4519-aeb2-d564a8fd4b36" /><br><br>
                         <h3>Lorem ipsum dolor</h3><br><br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
                     </div>
@@ -100,7 +97,7 @@
             </div>
         </div>
     </section>
-
+    <!-- Section Three Contains Topics of the blog -->
     <section class="third">
         <div class="title_3">
             <p>choose the article according to your <a class="highlight">categories</a></p>
@@ -109,64 +106,56 @@
             <div class="row">
                 <div class="column2">
                     <div class="card">
-                        <div class="container_top"></div>
-                        <h3>Flutterr</h3><br><br>
+                        <div class="container_top_white">
+                            <img src="images/flutter_logo.png" />
+                        </div>
+                        <h3>Flutter</h3><br><br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
                     </div>
                 </div>
-
                 <div class="column2">
                     <div class="card">
-                        <div class="container_top"></div>
+                        <div class="container_top">
+                            <img src="images/android_logo.png" />
+                        </div>
+                        <h3>Android</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="card">
+                        <div class="container_top" style="background-color: #222222;">
+                            <img class="react" src="images/react_native.jpg" />
+                        </div>
                         <h3>React Native</h3><br><br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
                     </div>
                 </div>
-                <div class="column2">
-                    <div class="card">
-                        <div class="container_top"></div>
-                        <h3>Lorem ipsum dolor</h3><br><br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
-                    </div>
-                </div>
-                <!-- <div class="column">
-
-                    <div class="card">
-                        <img
-                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/c.jpg?alt=media&token=286edbf8-da52-4519-aeb2-d564a8fd4b36"><br><br>
-                        <h3>Lorem ipsum dolor</h3><br><br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
-                    </div>
-                </div> -->
             </div>
         </div>
-        <div class="button_cloumn">
+        <!-- buttons to Read or write an article -->
+        <div class="button_cloumn" style="padding-left: 30px;padding-right: 30px;">
             <button class="button_class1">
-                <p class="button_text">Read story</p>
+                <p class="button_text">Read article</p>
             </button>
-            <!-- <li class="Button"><a class="write_story" href="writeStory.html">Read story</a></li> -->
             <div style="width: 30px;"></div>
-            <!-- <li class="wrap"><a class="write_story" href="writeStory.html">Write a story</a></li> -->
             <button class="button_class2">
-                <p class="button_text" style="color: black;">Write a story</p>
+                <p class="button_text" style="color: black;">Write a article</p>
             </button>
         </div>
     </section>
-
-    <section class="third">
+    <!-- Section Four Button to navigate to github profile -->
+    <section class="Four">
         <div class="title_3">
-            <p>like to contribute to the developer<a style="color: black;"></a> community</p>
+            <p>like to contribute to the developer<a style="color: black;"> community</a></p>
         </div>
         <div class="github">
             <div class="card">
-                <!-- <img style="width: 50px; height: 50px;" src="car.jpg"/> -->
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                <p>Team compan</p>
             </div>
         </div>
     </section>
-
-
-
+    <!-- Section Five containing Footer -->
     <section class="footer_class">
         <footer>
             <div>
@@ -181,24 +170,14 @@
                 <p class="foot_content">It's my story</p>
             </div>
             <div class="foot_container">
-                <h1 class="foot_head">Soci</h1>
+                <h1 class="foot_head">Social</h1>
                 <div style="display: flex;">
-                    <div class="icon_box"></div>
                     <p class="foot_content">Instagram</p>
                 </div>
                 <p class="foot_content">Twitter</p>
             </div>
         </footer>
     </section>
-
-
-
-
-
-
-
-
-
     <!-- Script tag-->
     <script src="script/script.js"></script>
     <!-- Firebse SDK-->
@@ -226,7 +205,6 @@
         firebase.initializeApp(firebaseConfig);
         firebase.analytics();
     </script>
-
 </body>
 
 </html>

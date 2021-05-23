@@ -6,135 +6,231 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- <link rel="javaScript" href="script/script.js"> -->
+    <title>Storys</title>
 </head>
 
 <body>
-    <nav id="navbar">
+      <!-- Resonsive NavBar -->
+      <nav id="navbar">
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
-        <label class="logo">compan</label>
+        <label class="logo"><a href="index.html" >compan</a></label>
         <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="storys.html">Story's</a></li>
-            <li class="wrap"><a class="write_story" href="writeStory.html">Write my story</a></li>
+            <!-- <li class="wrap"><a class="write_story" href="writeStory.html">Write my story</a></li> -->
         </ul>
     </nav>
-
-    <section class="content">
-        <div class="ads_space">a</div>
-        <div class="Indexcontent">
-            <div class="title">
-                <h1>How to Implement url_launcher in Flutter</h1>
-            </div>
-            <!-- <div class="intro">
-                <p>Has flutter had been a demanding framework for native application if you are a beginer and willing
-                    to start your career in flutter you can start it <a href="https://flutter.dev/docs"
-                        style="text-decoration: underline;">Here</a></p>
-            </div> -->
-            <div class="article_topic">
-                <h2>url_launcher</h2>
-            </div>
-            <div class="about_article">
-                <p>In this article i will be explning you how to implement url_launcher in flutter app</p>
-            </div>
-            <div class="about_article">
-                <p>url launcher is a flutter package used to open a spacifi link on click of the button to perform
-                    specified actions like sending an mail will open up an default mail app, make a call, or launch a
-                    url on browser etc. </p>
-            </div>
-            <div class="example_image"></div>
-            <div class="lets_get_stated">
-                <p>Let's get stated</p>
-            </div>
-            <div class="items_in_flex">
-                <div class="circle">
-                    <h4>1</h4>
-                </div>
-                <div class="step_one">
-                    <p>Add the dependencie in your <a class="highlight">pubspec.yamal</a> file</p>
-                </div>
-            </div>
-            <div class="box_1">
-                <p>url_launcher : any</p>
-            </div>
-            <div class="note">
-                <p>Note: Run the below command or click on <a class="highlight">pubget</a></p>
-            </div>
-            <div class="pubget">
-                <p>$flutter pubget</p>
-            </div>
-            <div class="items_in_flex">
-                <div class="circle">
-                    <h4>2</h4>
-                </div>
-                <div class="step_one">
-                    <p>Implementation of code</p>
-                </div>
-            </div>
-            <div class="implementation">
-                <p>In this project we will walk through 4 different example using url_launcher that you can add to your
-                    project or you can skip to your option</p>
-            </div>
-            <div class="setting_up_design">
-                <p class="highlight">main.dart</p>
-            </div>
-
-            <div class="main_code">
-                <script src="https://gist.github.com/Teamcompan/e5780d25f5537df3a71aef2db975b65a.js"></script>
-            </div>
-            <div class="implementation">
-                <p>Let us design a 4 buttons, on click of each button perform an specific actions</p>
-            </div>
-            <div class="implementation_list">
-                <p>1.Open an link in Browser</p>
-                <p>2.Make a Phone call</p>
-                <p>3.Open an Email</p>
-                <p>4.open whatsapp</p>
-            </div>
-            <div class="setting_up_design">
-                <p class="highlight">home.dart</p>
-            </div>
-            <div class="home_code">
-                <script src="https://gist.github.com/Teamcompan/ce732ed9b5d3bd53b0f6f8bc44cae5d7.js"></script>
-            </div>
-            <iframe src="https://lottiefiles.com/iframe/47784-books"></iframe>
-
-
-
-
-
-
-
-
-
-            <!-- <div><p>min.dart</p></div> -->
-
-            <!-- <div class="uiDesign"></div> -->
+    <!-- Section First Contaning the article Topic -->
+    <section>
+        <div class="article_list">
+            <p>Topics</p>
         </div>
-        <div class="ads_space" style="width: 25%;">a</div>
+        <div class="white_space_topics">
+            <div class="row">
+                <div class="column2">
+                    <div class="card">
+                        <h3>Flutter</h3>
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="card">
+                        <h3>Android</h3>
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="card">
+                        <h3>React Native</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
+    <!--Section Two contaning all the articles  -->
+    <section class="second">
+        <div class="white_space_story_page">
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/a.png?alt=media&token=9cd81bab-2a77-4f81-b173-65acb375349e" /><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/b.jpg?alt=media&token=9e0a6681-67bf-4f2f-bcd8-e136355c0bf0" /><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/c.jpg?alt=media&token=286edbf8-da52-4519-aeb2-d564a8fd4b36" /><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/c.jpg?alt=media&token=286edbf8-da52-4519-aeb2-d564a8fd4b36"><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="second">
+        <div class="white_space_story_page">
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/a.png?alt=media&token=9cd81bab-2a77-4f81-b173-65acb375349e" /><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/b.jpg?alt=media&token=9e0a6681-67bf-4f2f-bcd8-e136355c0bf0" /><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/c.jpg?alt=media&token=286edbf8-da52-4519-aeb2-d564a8fd4b36" /><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/c.jpg?alt=media&token=286edbf8-da52-4519-aeb2-d564a8fd4b36"><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="second">
+        <div class="white_space_story_page">
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/a.png?alt=media&token=9cd81bab-2a77-4f81-b173-65acb375349e" /><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/b.jpg?alt=media&token=9e0a6681-67bf-4f2f-bcd8-e136355c0bf0" /><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/c.jpg?alt=media&token=286edbf8-da52-4519-aeb2-d564a8fd4b36" /><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/c.jpg?alt=media&token=286edbf8-da52-4519-aeb2-d564a8fd4b36"><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="second">
+        <div class="white_space_story_page">
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/a.png?alt=media&token=9cd81bab-2a77-4f81-b173-65acb375349e" /><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/b.jpg?alt=media&token=9e0a6681-67bf-4f2f-bcd8-e136355c0bf0" /><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/c.jpg?alt=media&token=286edbf8-da52-4519-aeb2-d564a8fd4b36" /><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/chart-message.appspot.com/o/c.jpg?alt=media&token=286edbf8-da52-4519-aeb2-d564a8fd4b36"><br><br>
+                        <h3>Lorem ipsum dolor</h3><br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite, Nunc volutpat mass fermentum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Five containing Footer -->
     <section class="footer_class">
         <footer>
             <div>
-                <h1>hello</h1>
+                <h1 class="foot_head">Compan</h1>
+                <p class="foot_content">Home</p>
+                <p class="foot_content">About</p>
+            </div>
+            <div class="foot_container">
+                <h1 class="foot_head">Article</h1>
+                <p class="foot_content">Flutter</p>
+                <p class="foot_content">React Native</p>
+                <p class="foot_content">It's my story</p>
+            </div>
+            <div class="foot_container">
+                <h1 class="foot_head">Social</h1>
+                <div style="display: flex;">
+                    <p class="foot_content">Instagram</p>
+                </div>
+                <p class="foot_content">Twitter</p>
             </div>
         </footer>
     </section>
-
-    <script src="script/script.js"></script>
 </body>
-
 </html>
