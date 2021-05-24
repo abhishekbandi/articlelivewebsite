@@ -226,11 +226,12 @@ li a.write_story {
   padding-top: 15px;
 }
 
+/* #effac0; */
 .box_1 p {
-  background-color: #effac0;
+  background-color:#effac0;
   border-radius: 10px;
   padding: 20px;
-  padding-left: 50px;
+  padding-left: 60px;
   color: #504f4f;
   font-weight: 600;
   font-size: 16px;
@@ -238,24 +239,23 @@ li a.write_story {
 }
 
 .note {
-  padding-top: 30px;
-  padding-left: 20px;
+  padding: 20px;
+  padding-bottom: 10px;
+  padding-left: 50px;
   color: #504f4f;
   font-weight: 600;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
 }
 
-.pubget {
-  padding-top: 10px;
-}
+
 
 .pubget p {
-  padding-top: 10px;
-  padding-left: 50px;
-  padding-bottom: 10px;
+  padding: 20px;
+  padding-left: 60px;
+  /* padding-bottom: 10px; */
   border-radius: 10px;
-  color: #504f4f;
+  color: 504f4f;
   background-color: #e4e2e2;
   font-weight: 600;
   font-size: 16px;
@@ -268,7 +268,7 @@ li a.write_story {
   /* padding-left: 50px; */
   color: #504f4f;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -279,7 +279,7 @@ li a.write_story {
   padding-left: 30px;
   color: #504f4f;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Poppins', sans-serif;
 }
 
